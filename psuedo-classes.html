@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button:hover{
+            background-color: aquamarine;
+            cursor: help;
+        }
+        /*change color of the first and last list items*/
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: blue;
+        }
+        /*make the 2nd item bold*/
+        li:nth-child(2){
+            font-weight: bold;
+        }
+        /*make the 3rd item italic*/
+        li:nth-child(3)
+        {
+            font-style: italic;
+        }
+        /*highlight input on focus*/
+        input:focus {
+            border:2px solid green;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS Pseudo-classes Example</h1>
+    <p>Hover over the button to see the effect.</p>
+    <button>Hover me!</button>
+
+    <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+        <li>Last Item</li>
+    </ul>
+    <input type="text" placeholder="Focus on me!">
+    <input type="checkbox" id="check1">
+    <p>In this example, the first and last list items are colored differently, the second item is bold, and the third item is italicized. The input field changes its border color when focused.</p>
+    <p>Hovering over the button changes its background color.</p>
+    <h2>CSS Pseudo-classes</h2>
+    <p>CSS pseudo-classes are used to define the special state of an element.
+    <p>This example demonstrates the use of pseudo-classes in CSS.</p>
+    
+</body>
+</html>
